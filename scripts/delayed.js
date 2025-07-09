@@ -1,5 +1,5 @@
 // add delayed functionality here
-async function populateSeoData() {
+function populateSeoData() {
   try {
     fetch('https://d2livegshl4cvv.cloudfront.net/seo/seo-data.json')
     .then(response => response.text())
